@@ -20,6 +20,8 @@
 
 :mailbox: Как связаться со мной: [![Telegram Badge](https://img.shields.io/badge/-fatkheev-blue?style=flat&logo=Telegram&logoColor=white)](https://t.me/fatkheev)
 
+Мое резюме: [fatkheev.github.io/fatkheev](https://fatkheev.github.io/fatkheev/)
+
 ---
 
 ### ⚙️ GitHub статистика:
