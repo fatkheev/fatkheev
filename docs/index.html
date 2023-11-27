@@ -1,1 +1,154 @@
-test view
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Резюме Фатхеева Сергея</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #6dd5ed, #2193b0);
+            color: #333;
+            text-align: center;
+        }
+
+        #resume {
+            background: white;
+            margin: 40px auto;
+            padding: 20px;
+            width: 70%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        #resume:hover {
+            transform: scale(1.03);
+        }
+
+        .profile-photo {
+            width: 150px; /* Размер фото */
+            height: 150px; /* Размер фото */
+            border-radius: 50%; /* Круглая форма */
+            border: 3px solid #2193b0; /* Цвет рамки */
+            object-fit: cover;
+            margin: 0 auto 20px; /* Выравнивание и отступ */
+        }
+
+        h1, h2 {
+            color: #2193b0;
+        }
+
+        p, ul {
+            text-align: justify; /* Выравнивание текста по ширине */
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .section {
+            page-break-inside: avoid;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #2193b0;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #6dd5ed;
+        }
+
+        @media (max-width: 768px) {
+            #resume {
+                width: 90%;
+                margin: 20px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="resume">
+        <img src="media/photo.png" alt="Фото Фатхеева Сергея" class="profile-photo">
+        <div class="section">
+            <h1>Фатхеев Сергей</h1>
+            <p>Связаться со мной: Telegram</p>
+            <p>E-mail: fatkheev@ya.ru</p>
+        </div>
+        <div class="section">
+            <h2>Объектив</h2>
+            <p>Заниматься программированием на языке С, разрабатывать продуктивные и эффективные приложения и утилиты, приобретать новые знания и навыки в сфере IT. Планирую переход к Python, языку, который ценю за его читаемость и мощь в области анализа данных и веб-разработки.</p>
+        </div>
+        <div class="section">
+            <h2>Технические навыки</h2>
+            <ul>
+                <li>Программирование на языке С</li>
+                <li>Разработка и тестирование утилит Bash</li>
+                <li>Разработка и реализация библиотек на языке С</li>
+                <li>Знание HTML и CSS</li>
+                <li>Установка и обновление системы Linux</li>
+                <li>Основы администрирования Linux</li>
+                <li>Планирую изучение Python, SQL и C++</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Проекты</h2>
+            <p><strong>Утилиты Bash для работы с текстом</strong><br>
+            Разработана серия скриптов Bash, облегчающих манипуляции с текстовыми файлами. Задачи включали сортировку текста по разным параметрам, поиск и замену подстрок, разделение и объединение текстовых файлов.</p>
+            <p><strong>Собственная реализация математической библиотеки math.h</strong><br>
+            Проект включал в себя реализацию основных математических функций из библиотеки math.h. Особое внимание уделялось точности и производительности. Результаты функций были проверены на соответствие стандартной библиотеке.</p>
+            <p><strong>Реализация собственной библиотеки string.h на языке С с дополнениями</strong><br>
+            Проект был направлен на создание библиотеки для работы со строками, аналогичной string.h, но с дополнительными функциями. Разработанные функции включали разделение строки по разделителю, замену подстроки, переворачивание строки и др.</p>
+            <p><strong>Реализация собственной библиотеки s21_decimal.h</strong><br>
+            В этом проекте была разработана библиотека для работы с десятичными числами. Задача включала в себя создание функций для арифметических операций, округления и форматирования чисел.</p>
+            <p><strong>Установка и обновление системы Linux</strong><br>
+            Проект включал в себя установку и обновление операционной системы Linux, а также настройку рабочего окружения и установку необходимого программного обеспечения. Задачи включали решение проблем совместимости, оптимизацию производительности и установку драйверов.</p>
+        </div>
+        <div class="section">
+            <h2>Будущие проекты</h2>
+            <p>Планируется изучение и применение языка Python для веб-разработки и анализа данных, а также изучение SQL для работы с базами данных. Также планируется разработка нескольких проектов на C++, включая создание простого графического редактора и игры.</p>
+        </div>
+        <div class="section">
+            <h2>Предыдущая работа</h2>
+            <p>Экономист</p>
+        </div>
+        <div class="section">
+            <h2>Образование</h2>
+            <p>Казанский Национальный Исследовательский Технический Университет им. А. Н. Туполева - КАИ, специальность "Экономист".</p>
+            <p>Текущее обучение: Школа21 (благотворительный проект Сбера) 21-school.ru.</p>
+        </div>
+        <div class="section">
+            <h2>Языки</h2>
+            <p>Русский — родной</p>
+            <p>Английский — начинающий</p>
+        </div>
+        <div class="section">
+            <h2>Личные интересы</h2>
+            <p>Люблю научную фантастику, программирование, чтение технической литературы.</p>
+        </div>
+    </div>
+    <button id="download">Скачать в PDF</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script>
+        document.getElementById('download').addEventListener('click', () => {
+            const element = document.getElementById('resume');
+            html2pdf(element, {
+                margin: [20, 10],
+                filename: 'resume.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2 },
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+            });
+        });
+    </script>
+</body>
+</html>
