@@ -7,19 +7,18 @@
             font-family: 'Lucida Console', monospace; /* Моноширинный шрифт */
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #6dd5ed, #2193b0);
+            background: #f2f2f2; /* Обновленный цвет фона */
             color: #333;
-            text-align: center;
-            font-size: 18px; /* Увеличенный размер шрифта для всего документа */
+            font-size: 18px; /* Размер шрифта */
         }
 
         #resume {
             background: white;
             margin: 40px auto;
             padding: 20px;
-            width: 85%;
+            width: 85%; /* Ширина блока резюме */
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            border-radius: 10px;
+            border-radius: 10px; /* Скругление углов */
             transition: transform 0.3s;
         }
 
@@ -28,24 +27,40 @@
         }
 
         .profile-photo {
-            width: 300px; /* Размер фото */
-            height: 300px; /* Размер фото */
+            width: 150px; /* Уменьшенный размер фото */
+            height: 150px; /* Уменьшенный размер фото */
             border-radius: 50%; /* Круглая форма */
             border: 3px solid #2193b0; /* Цвет рамки */
             object-fit: cover;
             margin: 0 auto 20px; /* Выравнивание и отступ */
+            display: block; /* Для центрирования */
         }
 
-        h1, h2 {
-            color: #2193b0;
+        h1 {
+            font-size: 2em; /* Увеличенный размер для имени */
+            color: #2193b0; /* Цвет имени */
+            margin-bottom: 0.5em;
+        }
+
+        h2 {
+            font-size: 1.5em; /* Увеличенный размер для подзаголовков */
+            color: #2193b0; /* Цвет подзаголовков */
+            margin-bottom: 0.5em;
         }
 
         p, ul {
-            text-align: justify; /* Выравнивание текста по ширине */
+            text-align: left; /* Выравнивание по левому краю */
+            margin-left: 20px; /* Отступ слева */
         }
 
         ul {
-            padding-left: 20px;
+            list-style-type: none; /* Убрать стандартные маркеры списка */
+            padding: 0;
+        }
+
+        ul li::before {
+            content: "• "; /* Добавить маркеры перед элементами списка */
+            color: #2193b0; /* Цвет маркеров списка */
         }
 
         .section {
@@ -70,7 +85,7 @@
 
         @media (max-width: 768px) {
             #resume {
-                width: 90%;
+                width: 95%;
                 margin: 20px auto;
             }
         }
@@ -78,9 +93,11 @@
 </head>
 <body>
     <div id="resume">
-        <img src="media/photo.png" alt="Фото Фатхеева Сергея" class="profile-photo">
-        <div class="section">
-            <h1>Фатхеев Сергей</h1>
+        <div class="profile-photo-container">
+            <img src="media/photo.png" alt="Фото Фатхеева Сергея" class="profile-photo">
+        </div>
+        <h1>Фатхеев Сергей</h1>
+        <div class="contact-info">
             <p>Telegram: @fatkheev</p>
             <p>E-mail: fatkheev@ya.ru</p>
         </div>
