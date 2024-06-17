@@ -1,5 +1,5 @@
 # Привет, мир! 👋 Я - Сергей.
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Hello%2C+I'am+Sergei!)](github.com/fatkheev)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Hello%2C+I'am+Sergei!)](http://github.com/fatkheev)
 ---
 Программирование для меня - это не только навык, это страсть. Я начинающий программист, погружающийся в мир кода через [Школа 21](https://21-school.ru). Мой школьный ник: mathosha.
 
